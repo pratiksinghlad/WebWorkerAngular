@@ -10,8 +10,8 @@ Check web browser support for web worker
 https://caniuse.com/#search=webworker
 
 # File explanation
--app.component.ts         -: contains the api call,web worker and template(html).
--service/serverapiService -: contains the service api.
--worker/app.worker        -: contains the web worker which runs in the background. 
+-app.component.ts         -: contains the api call,web worker and template(html). <br/>
+-service/serverapiService -: contains the service api. <br/>
+-worker/app.worker        -: contains the web worker which runs in the background.  <br/>
 
 
