@@ -1,0 +1,18 @@
+/*
+	Author       : pratik singh lad
+	Created Date : 06-05-2020
+	web worker example with timer on the worker thread and api on the ui thread.
+*/
+#Web Workers are a simple means for web content to run scripts in background threads.
+#The worker thread can perform tasks without interfering with the user interface.
+-Create a worker by new Worker(scriptURL, options).
+-Using postMessage as a way to send data to the worker or a way to return data from the worker and handled where onmessage is called.
+-Using terminate when you want to stop web workers and free browser resources.
+
+#angular command for generating web worker 
+-ng generate web-worker filename
+
+#File explanation
+-app.component.ts         -: contains the api call,web worker and template(html).
+-service/serverapiService -: contains the service api.
+-worker/app.worker        -: contains the web worker which runs in the background. 

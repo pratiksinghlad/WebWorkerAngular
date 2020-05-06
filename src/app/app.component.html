@@ -1,0 +1,20 @@
+<!-- <table>
+  <tr *ngFor="let item of employeeList">
+    <td>{{item.EmpName}}</td>
+  </tr>
+</table>
+
+<span *ngIf="employeeList.length==0">no data</span> -->
+
+<strong>Web worker thread :</strong>
+<p>Count numbers: <strong id="result">{{timerCount}}</strong></p>
+<button  (click)="startWorker()">Start Worker</button> &nbsp;
+<button (click)="stopWorker()">Stop Worker</button>
+<br> <br>
+<strong>Api call from ui thread :</strong>
+
+  <li *ngFor="let ul of userList">
+    {{ul.name}}
+  </li>
+
+<router-outlet></router-outlet>
